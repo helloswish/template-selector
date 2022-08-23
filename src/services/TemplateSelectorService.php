@@ -14,6 +14,7 @@ use swishdigital\templateselector\TemplateSelector;
 
 use Craft;
 use craft\base\Component;
+use craft\helpers\App;
 
 /**
  * TemplateSelectorService Service
@@ -54,6 +55,7 @@ class TemplateSelectorService extends Component
 
         $fieldSettings = $field->getSettings();
 
-        return $fieldSettings['limitToSubfolder'];
+        return App::parseEnv($fieldSettings['limitToSubfolder']);
+
     }
 }
