@@ -2,8 +2,6 @@
 
 A fieldtype that allows you to select a template from a dropdown.
 
-![Screenshot](resources/img/plugin-logo.png)
-
 ## Requirements
 
 This plugin requires Craft CMS 3.0.0-beta.23 or later, or Craft CMS ^4.0.0-alpha.1 or later.
@@ -26,7 +24,7 @@ To install the plugin, select and install the plugin from the Craft Plugin Store
 
 Create a new field and choose field type Template Selector. 
 
-In the field settings, you can limit the list of available templates to a subfolder of the Craft templates folder. The path is relative, i.e. _subfolder/subfolder2_. This may also be set to an ENV variable.
+In the field settings, you can limit the list of available templates to a subfolder of the Craft templates folder. The path is relative, i.e. _subfolder/anotherfolder_. This may also be set to an ENV variable.
 
 ![Screenshot](resources/img/field-settings-1.png)
 
