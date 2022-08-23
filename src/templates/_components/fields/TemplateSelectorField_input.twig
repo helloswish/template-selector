@@ -1,0 +1,24 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Template Selector plugin for Craft CMS 3.x
+ *
+ * TemplateSelectorField Field Input
+ *
+ * @author    Swish Digital
+ * @copyright Copyright (c) 2022 Swish Digital
+ * @link      https://swishdigital.co
+ * @package   TemplateSelector
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.selectField({
+        label: '',
+        id: name,
+        name: name,
+        options: templates,
+        value: value})
+}}

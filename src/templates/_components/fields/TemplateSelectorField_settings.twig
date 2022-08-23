@@ -1,0 +1,38 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Template Selector plugin for Craft CMS
+ *
+ * TemplateSelectorField Field Settings
+ *
+ * @author    Swish Digital
+ * @copyright Copyright (c) 2022 Swish Digital
+ * @link      https://swishdigital.co
+ * @package   TemplateSelector
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% do view.registerAssetBundle("swishdigital\\templateselector\\assetbundles\\templateselector\\TemplateSelectorAsset") %}
+
+{{ forms.autosuggestField({
+    label: 'Limit To Subfolder'|t,
+    instructions: 'Optional path of the subfolder, i.e. _subfolder/subfolder2_. Relative to Craft templates folder.'|t,
+    id: 'limitToSubfolder',
+    name: 'limitToSubfolder',
+    value: field['limitToSubfolder'],
+    suggestEnvVars: true,
+    suggestAliases: true
+    })
+}}
+
+{{  forms.checkboxField({
+    label: 'Show Friendly Option Values'|t,
+    instructions: 'Show more readable option values (ex: Blog Listing vs. _blogListing.twig)'|t,
+    name: 'friendlyOptionValues',
+    value: 1,
+    checked: field['friendlyOptionValues']
+    })
+}}
