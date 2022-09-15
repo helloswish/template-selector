@@ -1,10 +1,12 @@
-# Template Selector plugin for Craft CMS 4.x
+# Template Selector plugin for Craft CMS 3.x/4.x
 
 A fieldtype that allows you to select a template from a dropdown.
 
 ## Requirements
 
-This plugin requires Craft CMS ^4.0.0-alpha.1 or later.
+This plugin requires Craft CMS 3.0.0-beta.23 or later, or Craft CMS ^4.0.0-alpha.1 or later.
+
+Please note this plugin requires PHP 8.x.
 
 ## Installation
 
@@ -20,9 +22,17 @@ To install the plugin, select and install the plugin from the Craft Plugin Store
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Template Selector.
 
+## Migrating from Template Select plugin by Siperbig
+
+1. Remove the Template Select plugin without changing any attributes of your fields.
+
+2. Uninstall the Template Select plugin.
+
+3. Install Template Selector. All of your fields will continue to work and data from the provious fieldtype will remain intact.
+
 ## Configuring Template Selector
 
-Create a new field and choose field type Template Selector. 
+Create a new field and choose field type Template Selector.
 
 In the field settings, you can limit the list of available templates to a subfolder of the Craft templates folder. The path is relative, i.e. _subfolder/anotherfolder_. This may also be set to an ENV variable.
 
