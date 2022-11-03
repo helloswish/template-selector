@@ -18,7 +18,7 @@ To install the plugin, select and install the plugin from the Craft Plugin Store
 
 2. Then tell Composer to load the plugin:
 
-        composer require helloswish/template-selector
+        composer require swishdigital/template-selector
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Template Selector.
 
