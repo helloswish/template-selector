@@ -1,10 +1,10 @@
-# Template Selector plugin for Craft CMS 3.x/4.x
+# Template Selector plugin for Craft CMS 3.x/4.x/5.x
 
 A fieldtype that allows you to select a template from a dropdown.
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later, or Craft CMS ^4.0.0-alpha.1 or later.
+This plugin requires Craft CMS 3.0.0-beta.23 or later, Craft CMS ^4.0.0-alpha.1, or Craft CMS ^5.0.x-dev or later.
 
 Please note this plugin requires PHP 8.x.
 

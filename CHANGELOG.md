@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 5.0.1 - 2024-02-29
+### Changed
+- Updated Readme and Changelog
+
+## 5.0.0 - 2024-02-29
+### Changed
+- Merged Pull Request with Craft 5 compatibility
+
 ## 1.0.7 - 2022-11-3
 ### Changed
 - Pull Request to fix Read Me file incorporated
